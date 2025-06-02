@@ -1,8 +1,32 @@
 {
-  "private": true,
-  "name": "@appwrite.io/repo",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/appwrite/appwrite.git"
-  }
+  "name": "appwrite-database-tests",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas para el módulo de base de datos de Appwrite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 10000 --recursive",
+    "test:watch": "mocha tests/**/*.test.js --timeout 10000 --recursive --watch",
+    "test:coverage": "nyc mocha tests/**/*.test.js --timeout 10000 --recursive"
+  },
+  "dependencies": {
+    "node-appwrite": "^17.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10",
+    "chai-as-promised": "^7.1.1",
+    "sinon": "^17.0.1",
+    "sinon-chai": "^3.7.0",
+    "nyc": "^15.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "appwrite",
+    "database",
+    "testing",
+    "mocha",
+    "crud"
+  ],
+  "author": "Christian",
+  "license": "MIT"
 }
