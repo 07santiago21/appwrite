@@ -1,15 +1,18 @@
 {
   "name": "appwrite-database-tests",
   "version": "1.0.0",
-  "description": "Pruebas automatizadas para el módulo de base de datos de Appwrite",
+  "description": "Pruebas automatizadas para el módulo de base de datos y API de proyectos de Appwrite",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/**/*.test.js --timeout 10000 --recursive",
     "test:watch": "mocha tests/**/*.test.js --timeout 10000 --recursive --watch",
-    "test:coverage": "nyc mocha tests/**/*.test.js --timeout 10000 --recursive"
+    "test:coverage": "nyc mocha tests/**/*.test.js --timeout 10000 --recursive",
+    "verify-setup": "node scripts/verify-setup.js",
+    "debug-connection": "node scripts/debug-connection.js"
   },
   "dependencies": {
-    "node-appwrite": "^17.0.0"
+    "node-appwrite": "^17.0.0",
+    "axios": "^1.6.0"
   },
   "devDependencies": {
     "mocha": "^10.2.0",
@@ -23,6 +26,8 @@
   "keywords": [
     "appwrite",
     "database",
+    "projects",
+    "api",
     "testing",
     "mocha",
     "crud"

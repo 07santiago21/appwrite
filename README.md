@@ -1,5 +1,4 @@
-> [Get started with Appwrite](https://apwr.dev/appcloud)
-> [Join the Init kick off event 19th of May: The future of Appwrite with Founder & CEO Eldad Fux](https://www.youtube.com/watch?v=1g8tuogsp7A)
+> [Get started with Appwrite](https://apwr.dev/appcloud) > [Join the Init kick off event 19th of May: The future of Appwrite with Founder & CEO Eldad Fux](https://www.youtube.com/watch?v=1g8tuogsp7A)
 
 <br />
 <p align="center">
@@ -63,7 +62,8 @@ Table of Contents:
 - [License](#license)
 
 ## Getting Started
-The easiest way to get started with Appwrite is by [signing up for Appwrite Cloud](https://cloud.appwrite.io/). While Appwrite Cloud is in public beta, you can build with Appwrite completely free, and we won't collect you credit card information. 
+
+The easiest way to get started with Appwrite is by [signing up for Appwrite Cloud](https://cloud.appwrite.io/). While Appwrite Cloud is in public beta, you can build with Appwrite completely free, and we won't collect you credit card information.
 
 ## Self-Hosting
 
